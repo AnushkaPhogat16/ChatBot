@@ -1,0 +1,145 @@
+{
+    "prompts": [
+        {
+            "tag" : "greetings",
+            "patterns" : [
+                "Namaste",
+                "Bonjour",
+                "Heylo",
+                "Hey",
+                "How are you",
+                "Is anyone there",
+                "Hello",
+                "I have a question",
+                "Need to ask something"
+            ],
+
+            "responses": [
+                "Hey :)",
+                "Heyy, how can I help you",
+                "What's up?",
+                "Heyo, what can I do for you?"
+            ]
+        },
+
+        {
+            "tag" : "exiting",
+            "patterns" : [
+                "Bye",
+                "See you later",
+                "Goodbye",
+                "Ok bye",
+                "I'll go now"
+            ],
+
+            "responses": [
+                "Thanks for visiting!!",
+                "Okie dokie, have an absolutely amazing day ahead!",
+                "Byee! Come back soon!",
+                "Glad I could help"
+            ]
+        },
+
+        {
+            "tag" : "thanks",
+            "patterns" : [
+                "Thanks", "Thank youu", "That was very helpful", "Thank's a lot!"
+            ],
+
+            "responses": [
+                "Happy to help!", "Any time!", "My pleasure", "Glad I could help"
+            ]
+        },
+
+        {
+            "tag" : "humour",
+            "patterns" : [
+                "Can you tell me a joke?",
+                "Tell me something funny!",
+                "Do you know a joke?",
+                "Make me laugh"
+            ],
+
+            "responses": [
+                " I went to buy some camo pants but couldn’t find any.", 
+                "I failed math so many times at school, I can’t even count.", 
+                "I was wondering why the frisbee kept getting bigger and bigger, but then it hit me.", 
+                "When life gives you melons, you might be dyslexic.",
+                "It takes a lot of balls to golf the way I do.",
+                " The problem with kleptomaniacs is that they always take things literally."
+            ]
+        },
+
+        {
+            "tag" : "ability",
+            "patterns" : [
+                "What can you do?",
+                "Tell me about your abilities.",
+                "What are your functions?",
+                "What services do you offer?",
+                "How can you help me?"
+            ],
+
+            "responses": [
+                "I can chat with you, tell jokes, answer some questions, and keep you company!",
+                "I'm here to assist you with various queries and keep you entertained.",
+                "I can tell jokes, provide information, and have friendly conversations with you.",
+                "My capabilities include chatting, answering basic questions, and making you laugh.",
+                "I can provide you with information, tell jokes, and assist with your queries."
+            ]
+        },
+
+        {
+            "tag": "weather",
+            "patterns": [
+                "What's the weather like?",
+                "Tell me the weather.",
+                "How's the weather today?",
+                "Is it going to rain?",
+                "What's the forecast?"
+            ],
+            "responses": [
+                "I can't check real-time weather, but it's always a good idea to check your local weather forecast online!",
+                "I don't have real-time weather data, but you can use a weather app or website to find out.",
+                "I can't tell you that but I hope it's sunny! If not, pls carry an umbrella, rain dances are the leading cause of death (no)",
+                "I recommend checking your favorite weather website or app for the most accurate forecast."
+            ]
+        },
+
+        {
+            "tag": "name",
+            "patterns": [
+                "What's your name?",
+                "Who are you?",
+                "Can you tell me your name?",
+                "What should I call you?",
+                "Introduce yourself."
+            ],
+            "responses": [
+                "I'm uwuChatBot, your friendly virtual assistant!",
+                "My name is uwuChatBot, and I'm here to help you.",
+                "You can call me uwuChatBot.",
+                "I'm known as uwuChatBot, your assistant for today!",
+                "I go by the name uwuChatBot, and I'm pookie coded."
+            ]
+        },
+
+        {
+            "tag": "favorite_show",
+            "patterns": [
+                "What's your favorite show?",
+                "Do you have a favorite TV show?",
+                "Tell me your favorite show.",
+                "What TV show do you like?",
+                "Favorite show?"
+            ],
+            "responses": [
+                "As a chatbot, I don't watch TV, but I've heard 'Friends' is an absolute classic!",
+                "I can't watch shows, but 'The Office' is highly recommended by many! (that's what she said)",
+                "Shows aren't really my thing, but 'Stranger Things' sounds amazingg!",
+                "I don't have the capability to watch TV, but 'Schitt's Creek' seems pretty popular!",
+                "I'm just a chatbot, but if I could, I might enjoy 'Brooklyn Nine-Nine'!"
+            ]
+        }              
+    ]
+}
