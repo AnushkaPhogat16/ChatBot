@@ -25,10 +25,10 @@ model.eval()
 
 bot_name = "uwuChatBot"
 print("HEYLO! I love to yap!")
-print("Let's chat! Type 'quite' to exit because we never quit!")
+print("Let's chat! Type 'quiet' to exit because we never quit!")
 while True:
     sentence = input('You: ')
-    if sentence.lower() == "quite":
+    if sentence.lower() == "quiet":
         break
 
     sentence = tokenize(sentence)
